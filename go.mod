@@ -1,7 +1,5 @@
-module github.com/razonyang/hugo-theme-bootstrap/exampleSite
+module github.com/Jonathan-Zollinger/MentalShift
 
-go 1.18
+go 1.20
 
-replace github.com/razonyang/hugo-theme-bootstrap => ../
-
-require github.com/razonyang/hugo-theme-bootstrap v0.0.0-00010101000000-000000000000 // indirect
+require github.com/razonyang/hugo-theme-bootstrap v1.0.0 // indirect

@@ -1,0 +1,23 @@
+---
+title: "Worksheet"
+date: 2023-05-03T20:17:30-06:00
+draft: true
+---
+
+<div class="worksheet">
+  <h2>Distortion</h2>
+  <p>{{ .Get "distortion" }}</p>
+
+  <h2>Evidence For</h2>
+  <p>{{ .Get "evidence-for" }}</p>
+
+  <h2>Evidence Against</h2>
+  <p>{{ .Get "evidence-against" }}</p>
+
+  <h2>Replacement</h2>
+  <p>{{ .Get "replacement" }}</p>
+
+  <form method="POST" action="{{ .Get "action" }}">
+    {{ .Inner }}
+  </form>
+</div>
